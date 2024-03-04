@@ -1,4 +1,4 @@
-pipeline (
+pipeline {
     agent any 
     stages {
         stage( 'Build') {
@@ -28,4 +28,4 @@ pipeline (
             echo 'Pipeline failed'
         }
     }
-)
+}
