@@ -3,6 +3,9 @@ pipeline (
     stages {
         stage( 'Build') {
             steps {
+                echo ">>> Build:"
+                sh("ls -l")
+                echo "------"
                 sh("make")
                 echo 'Build Stage Successful'
             }
