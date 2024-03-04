@@ -1,0 +1,7 @@
+Makefile
+*.o
+hello_world
+CMakeFiles
+.DS_Store
+cmake_install.cmake
+CMakeCache.txt
